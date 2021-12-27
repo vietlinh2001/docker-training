@@ -1,11 +1,16 @@
-FROM node:14
+FROM node:16
 
 RUN node -v
 
+RUN yarn -v
+
 RUN mkdir /myapp
 
-COPY ./server.js /myapp/
+WORKDIR /myapp
 
-CMD node /myapp/server.js
+COPY . /myapp
 
+RUN yarn install
+
+CMD node server.js
 
