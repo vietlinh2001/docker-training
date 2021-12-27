@@ -1,4 +1,4 @@
-Git training
+Docker training
 ==
 
 
