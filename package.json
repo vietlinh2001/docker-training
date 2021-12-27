@@ -1,0 +1,11 @@
+{
+  "name": "docker-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cuongnguyen3108/docker-training.git",
+  "author": "Nguyen Cao Cuong <nguyencaocuong31082001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
